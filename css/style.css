@@ -45,9 +45,9 @@ a{
 /* header */
 header{
   background-image: url("../img/headerbg.jpg");
-  background-size: 100%;
   background-size: cover;
-  height: 70vh;
+  background-repeat: no-repeat;
+  height: 65vh;
 }
 
 #opaco{
@@ -56,7 +56,7 @@ header{
   top: 0;
   left: 0;
   width: 100%;
-  height: 70vh;
+  height: 65vh;
   color: white;
 }
 
@@ -130,7 +130,7 @@ header{
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 0% 0%;
-  height: 70vh;
+  height: 50vh;
   position: relative;
 }
 
@@ -168,6 +168,7 @@ header{
   background-image: url("../img/Social-Banner.jpg");
   background-size: cover;
   padding-top: 5%;
+  margin-bottom: 2%;
 }
 
 #fifth .textcon{
@@ -179,3 +180,40 @@ header{
   background-color: white;
 }
 /*/ fifth section */
+
+/* footer */
+footer{
+  background-color: black;
+  padding: 30px 10% 10px 10%;
+}
+footer .container{
+  height: 100%;
+  color: white;
+}
+footer .container h4{
+  padding-bottom: 10px;
+}
+footer .container li{
+  text-align: left;
+  padding: 5px 0 5px;
+  float: none;
+}
+footer .container li a{
+  color: gray;
+}
+footer .container img{
+  width: 50%;
+}
+footer .container .row.c .container{
+  max-width: 25%;
+  margin:auto;
+}
+footer .container .row.c img{
+  width: 49%;
+}
+
+footer .container .row{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+/* /footer */
