@@ -50,3 +50,26 @@ a{
 #opaco .row:nth-child(2) p{
   padding: 10px;
 }
+
+.textcon {
+  text-align: center;
+  margin: 10px auto;
+}
+.textcon *{
+  padding: 5px 0px 5px 0px;
+}
+.imgcon{
+  margin: auto;
+  padding-left: 33%;
+  padding-right: 33%;
+}
+section:nth-child(1) .col-lg-6{
+  background-color: #FAFAFA;
+}
+
+section:nth-child(1) a{
+  color: blue;
+}
+section:nth-child(1) img{
+  width: 40%;
+}
