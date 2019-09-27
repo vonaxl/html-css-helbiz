@@ -70,20 +70,20 @@ header{
 /* /header */
 
 /* first section */
-section:nth-child(1) .col-lg-6{
+#first .col-lg-6{
   background-color: #FAFAFA;
 }
 
-section:nth-child(1) a{
+#first a{
   color: blue;
 }
-section:nth-child(1) img{
+#first img{
   width: 40%;
 }
 /* /first section */
 
 /* second section */
-section:nth-child(2){
+#second{
   background-image: url("../img/HelbizBanner.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -91,23 +91,46 @@ section:nth-child(2){
   height: auto;
 }
 
-section:nth-child(2) img{
+#second img{
   margin-left: 15%;
   margin-right: 15%;
   width: 70%;
 }
-section:nth-child(2) .row{
+#second .row{
   padding-top: 15%;
 }
-section:nth-child(2) .col-lg-4.left, .col-lg-4.right{
+#second .col-lg-4.left, .col-lg-4.right{
   padding-top: 20%;
 
 }
-section:nth-child(2) .textcon.1{
+#second .textcon.1{
   text-align: right;
   bottom: 0;
 }
-section:nth-child(2) .textcon.2{
+#second .textcon.2{
   text-align: left;
   bottom: 0;
 }
+/* /second section */
+
+
+/* third section */
+
+#third > .container{
+  background-image: url("../img/ScooterHelbiz-2400.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
+  height: 70vh;
+  position: relative;
+}
+
+#third .container .textcon{
+  width: 25%;
+  color: white;
+  position: absolute;
+  right: 0%;
+  top: 45%;
+  transform: translate(-50% ,-50%);
+}
+/* /third section */
