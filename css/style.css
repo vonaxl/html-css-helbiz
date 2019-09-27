@@ -3,7 +3,7 @@ body{
   font-family: arial;
 }
 
-/* rules to be use to not repeat each one of them */
+/* classes to be use to not repeat each one of them */
 ul{
   list-style-type: none;
   overflow: hidden;
@@ -35,7 +35,11 @@ a{
   padding-left: 33%;
   padding-right: 33%;
 }
-/* /rules to be use to not repeat each one of them */
+
+.inblock{
+  display: inline-block;
+}
+/* /classes to be use to not repeat each one of them */
 
 
 /* header */
@@ -97,10 +101,10 @@ header{
   width: 70%;
 }
 #second .row{
-  padding-top: 15%;
+  padding-top: 10%;
 }
 #second .col-lg-4.left, .col-lg-4.right{
-  padding-top: 20%;
+  padding-top: 25%;
 
 }
 #second .textcon.1{
@@ -115,6 +119,11 @@ header{
 
 
 /* third section */
+
+#third{
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
 
 #third > .container{
   background-image: url("../img/ScooterHelbiz-2400.jpg");
@@ -134,3 +143,21 @@ header{
   transform: translate(-50% ,-50%);
 }
 /* /third section */
+
+/* fourth section */
+
+#fourth .container .row .col-lg-6 .container{
+  background-image: url("../img/helbiZAPP.png");
+  background-size: 65%;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  background-color: #374859;
+  height: 60vh;
+  color: white;
+  padding-top: 3%;
+}
+#fourth .container .row .col-lg-6 .container.b{
+  background-image: url("../img/Cities-1500.jpg");
+  background-size: cover;
+}
+/* /fourth section */
