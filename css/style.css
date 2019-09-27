@@ -161,3 +161,21 @@ header{
   background-size: cover;
 }
 /* /fourth section */
+
+/* fifth section */
+#fifth{
+  height: 50vh;
+  background-image: url("../img/Social-Banner.jpg");
+  background-size: cover;
+  padding-top: 5%;
+}
+
+#fifth .textcon{
+  width: 30%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin: auto;
+  color: black;
+  background-color: white;
+}
+/*/ fifth section */
