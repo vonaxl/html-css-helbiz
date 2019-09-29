@@ -123,6 +123,7 @@ header{
 #third{
   padding-left: 2.5%;
   padding-right: 2.5%;
+  color: white;
 }
 
 #third > .container{
@@ -135,12 +136,8 @@ header{
 }
 
 #third .container .textcon{
-  width: 25%;
-  color: white;
-  position: absolute;
-  right: 0%;
-  top: 45%;
-  transform: translate(-50% ,-50%);
+  padding-top: 25%;
+  margin: auto;
 }
 /* /third section */
 
@@ -217,3 +214,44 @@ footer .container .row{
   margin-bottom: 5%;
 }
 /* /footer */
+
+@media all and (min-width:768px) and (max-width:991px) {
+  #opaco #navmenu {
+     display: none;
+  }
+  #opaco .container img{
+    width: 40%;
+  }
+
+  #second .container img{
+    width: 70%;
+  }
+
+  #third .container .textcon{
+    margin: auto;
+  }
+
+  #fourth .container .row .col-lg-6 .container{
+    background-size: 30%;
+  }
+
+}
+
+@media all and (max-width:767px) {
+  #opaco #navmenu {
+     display: none;
+  }
+
+  #second .container img{
+    width: 40%;
+    display: none;
+  }
+  #second .container .col-xs-12{
+    padding: 0;
+  }
+
+  #fourth .container .row .col-lg-6   .container{
+    background-size: 40%;
+  }
+
+}
