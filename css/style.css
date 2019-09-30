@@ -59,7 +59,15 @@ header{
   height: 65vh;
   color: white;
 }
+#navmenu2{
+  display: none;
+  color: white;
+  font-size: 20px;
+}
 
+#dropdown{
+  display: none;
+}
 #opaco .container .row .col-lg-6 li{
   float: right;
 }
@@ -176,6 +184,10 @@ header{
   color: black;
   background-color: white;
 }
+
+#fifth .textcon a{
+  color: black;
+}
 /*/ fifth section */
 
 /* footer */
@@ -216,10 +228,28 @@ footer .container .row{
 /* /footer */
 
 @media all and (min-width:768px) and (max-width:991px) {
-  #opaco #navmenu {
+  #opaco #navmenu1 {
      display: none;
   }
-  #opaco .container img{
+  #opaco #navmenu2 {
+     display: block;
+  }
+  #opaco #navmenu2:hover {
+    cursor: pointer;
+  }
+  #opaco #navmenu2:hover #dropdown {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: rgb(64, 64, 65)
+  }
+
+  #opaco #navmenu2:hover #dropdown li{
+    float: none;
+  }
+  #opaco .container .button img{
     width: 40%;
   }
 
@@ -238,8 +268,31 @@ footer .container .row{
 }
 
 @media all and (max-width:767px) {
-  #opaco #navmenu {
+  #opaco #navmenu1 {
      display: none;
+  }
+  #opaco #navmenu2 {
+     display: block;
+  }
+
+  #opaco #navmenu2:hover {
+    cursor: pointer;
+  }
+  #opaco #navmenu2:hover #dropdown {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+    background-color: rgb(64, 64, 65)
+  }
+
+  #opaco #navmenu2:hover #dropdown li{
+    float: none;
+  }
+
+  #opaco .container .button img{
+    width: 40%;
   }
 
   #second .container img{
