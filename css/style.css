@@ -39,6 +39,10 @@ a{
 .inblock{
   display: inline-block;
 }
+
+i{
+  font-size: 30px;
+}
 /* /classes to be use to not repeat each one of them */
 
 
@@ -169,24 +173,31 @@ header{
 
 /* fifth section */
 #fifth{
-  height: 50vh;
+  /* height: 50vh; */
   background-image: url("../img/Social-Banner.jpg");
   background-size: cover;
   padding-top: 5%;
+  padding-bottom: 5%;
   margin-bottom: 2%;
 }
 
 #fifth .textcon{
-  width: 30%;
+  max-width: 30%;
   padding-top: 5%;
   padding-bottom: 5%;
+  padding-left: 0;
+  padding-right: 0;
   margin: auto;
   color: black;
   background-color: white;
+  text-align: center;
+  margin: auto;
 }
 
-#fifth .textcon a{
+
+#fifth .textcon  a{
   color: black;
+  padding: 5px;
 }
 /*/ fifth section */
 
